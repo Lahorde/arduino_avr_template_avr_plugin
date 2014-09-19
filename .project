@@ -25,11 +25,4 @@
 		<nature>org.eclipse.cdt.managedbuilder.core.ScannerConfigNature</nature>
 		<nature>de.innot.avreclipse.core.avrnature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>arduino_core_avr</name>
-			<type>2</type>
-			<locationURI>PARENT-6-PROJECT_LOC/remi/Projects/arduino_core_avr</locationURI>
-		</link>
-	</linkedResources>
 </projectDescription>
