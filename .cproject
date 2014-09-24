@@ -118,6 +118,9 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/arduino_core_avr/variants/standard}&quot;"/>
 								</option>
 								<option id="de.innot.avreclipse.compiler.option.debug.type.410217619" name="Debug Info Format" superClass="de.innot.avreclipse.compiler.option.debug.type" value="de.innot.avreclipse.compiler.option.debug.level.stabsplus" valueType="enumerated"/>
+								<option id="de.innot.avreclipse.compiler.option.def.1524245776" name="Define Syms (-D)" superClass="de.innot.avreclipse.compiler.option.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ARDUINO=157"/>
+								</option>
 								<inputType id="de.innot.avreclipse.compiler.winavr.input.864547339" name="C Source Files" superClass="de.innot.avreclipse.compiler.winavr.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.cppcompiler.app.release.1650822358" name="AVR C++ Compiler" superClass="de.innot.avreclipse.tool.cppcompiler.app.release">
@@ -132,6 +135,9 @@
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/arduino_core_avr/variants/standard}&quot;"/>
 								</option>
 								<option id="de.innot.avreclipse.cppcompiler.option.debug.type.351517116" name="Debug Info Format" superClass="de.innot.avreclipse.cppcompiler.option.debug.type" value="de.innot.avreclipse.cppcompiler.option.debug.level.stabsplus" valueType="enumerated"/>
+								<option id="de.innot.avreclipse.cppcompiler.option.def.2063486768" name="Define Syms (-D)" superClass="de.innot.avreclipse.cppcompiler.option.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="ARDUINO=157"/>
+								</option>
 								<inputType id="de.innot.avreclipse.cppcompiler.input.720744438" superClass="de.innot.avreclipse.cppcompiler.input"/>
 							</tool>
 							<tool id="de.innot.avreclipse.tool.linker.winavr.app.release.1761874474" name="AVR C Linker" superClass="de.innot.avreclipse.tool.linker.winavr.app.release"/>
@@ -156,6 +162,7 @@
 							<tool id="de.innot.avreclipse.tool.avrdude.app.release.2034664154" name="AVRDude" superClass="de.innot.avreclipse.tool.avrdude.app.release"/>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="de.innot.avreclipse.configuration.app.release.1938985667.1130810666.853312038" name="flash_atmega328p_avr_dragon.sh" rcbsApplicability="disable" resourcePath="tools/flash_atmega328p_avr_dragon.sh" toolsToInvoke=""/>
 					<sourceEntries>
 						<entry excluding="arduino_core_avr/bootloaders|arduino_core_avr/firmwares|arduino_core_avr/libraries" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 					</sourceEntries>
