@@ -34,6 +34,8 @@ fi
 echo power off debugger, power off board MCU, power on MCU, power on debugger -press enter when finished
 read finished
 
+#be sure no other avarice instance are running
+pkill -x avarice
 echo launch avarice...debug session can be started
 if avarice --debugwire --dragon --ignore-intr :4242
 then 

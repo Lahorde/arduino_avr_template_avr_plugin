@@ -31,7 +31,7 @@ else
   exit 3
 fi
 
-echo flash firmware
-avrdude	-pm328p -carduino -P/dev/ttyACM0 -b115200 -Uflash:w:arduino_avr_template_avr_plugin.hex:a
+echo "flash firmware over Serial (bootloader won't be erased)"
+avrdude	-pm328p -carduino -P/dev/ttyACM0 -b115200 -Uflash:w:$1:a
 
 exit 0
